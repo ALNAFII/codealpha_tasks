@@ -1,0 +1,96 @@
+body 
+{    
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+h1 
+{
+    text-align: center;
+    color: #333;
+}
+.input-container 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input[type="text"] 
+{
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+select 
+{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+button 
+{
+    padding: 10px;
+    background-color: #5c67ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover 
+{
+    background-color: #4755ff;
+}
+ul 
+{
+    list-style: none;
+    padding: 0;
+}
+li 
+{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+li.low
+{
+    background-color: #e0f7fa;
+}
+li.medium 
+{
+    background-color: #ffecb3;
+}
+li.high 
+{
+    background-color: #ffcdd2;
+}
+li.completed 
+{
+    text-decoration: line-through;
+    color: #777;
+}
+li button 
+{
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
